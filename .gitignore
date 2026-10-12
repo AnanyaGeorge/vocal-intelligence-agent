@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+.streamlit/secrets.toml
+
+# Local data, generated outputs, and model artifacts:
+# Review these folders before publishing. Remove these ignore rules only
+# for specific files that are safe, permitted, and useful to share.
+data/*
+!data/README.md
+models/*
+!models/README.md
+outputs/*
+!outputs/README.md
